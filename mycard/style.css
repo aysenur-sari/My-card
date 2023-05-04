@@ -1,0 +1,68 @@
+.overarching {
+  width: 300px;
+  height: 450px;
+  margin: 10% auto;
+  box-shadow: 0px 0.2px 1px 0px rgba(0, 0, 0, 0.78);
+}
+
+.coverPhoto {
+  width: 300px;
+  height: 100px;
+}
+.coverPhoto img {
+  width: 300px;
+}
+
+.profilePhoto {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 150px;
+  margin: -25% 30% 0 25%;
+  border-radius: 50%;
+  border: 2px;
+}
+.profilePhoto img {
+  width: 125px;
+  border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+}
+
+li {
+  display: flex;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li .mail {
+  margin: 0 0 0 10px;
+}
+li .phone {
+  margin: 0 0 0 10px;
+}
+li .workspace {
+  margin: 0 0 0 10px;
+}
+li .adress {
+  margin: 0 0 0 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 50px;
+}
+.icon .li .img {
+  width: 30px;
+}/*# sourceMappingURL=style.css.map */
